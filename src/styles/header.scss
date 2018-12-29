@@ -1,0 +1,16 @@
+@import '../index.scss';
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $primary-color;
+  width: 100vw;
+  padding: .7em;
+  position: fixed;
+  z-index: 10;
+}
+
+.header img {
+  width: 70px;
+}

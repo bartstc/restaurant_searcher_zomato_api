@@ -1,0 +1,57 @@
+@import '../index.scss';
+
+.error {
+  width: 100%;
+  height: 100vh;
+  background: $primary-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $secondary-color;
+
+  @include mediaMd {
+    background: $secondary-color;
+    color: $primary-color;
+  }
+
+  &__title {
+    font-size: 6em;
+    font-weight: $fw-bold;
+    line-height: .9em;
+
+    @include mediaMd {
+      font-size: 10em;
+    }
+  }
+
+  &__subtitle {
+    font-size: 1.5em;
+
+    @include mediaMd {
+      font-size: 2.5em;
+    }
+  }
+
+  &__redirect {
+    margin: 3em 0;
+    padding: .6em 1.4em;
+    font-weight: $fw-bold;
+    font-size: .9em;
+    background:transparent;
+    border: 1px solid $secondary-color;
+
+    @include mediaMd {
+      font-size: 1.1em;
+      border: 1px solid $primary-color;
+    }
+  }
+}
+
+.home-link {
+  color: $secondary-color;
+
+  @include mediaMd {
+    color: $primary-color;
+  }
+}
