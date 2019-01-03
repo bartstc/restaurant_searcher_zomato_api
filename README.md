@@ -1,3 +1,6 @@
+## This application uses zomato api to search for restaurants based on the given city name. Written in react.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
